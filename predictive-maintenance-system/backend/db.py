@@ -55,6 +55,7 @@ def insert_reading(machine_id, temperature, vibration, pressure, prediction, pro
 
     if USE_MONGO:
         _readings.insert_one(doc)
+        doc.pop("_id", None)
     else:
         _conn.execute(
             """INSERT INTO readings
