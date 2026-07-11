@@ -1,14 +1,14 @@
 {
-  "accuracy": 0.9941520467836257,
-  "precision": 0.9743589743589743,
-  "recall": 1.0,
-  "auc": 1.0,
+  "accuracy": 0.9927813163481953,
+  "precision": 0.9855769230769231,
+  "recall": 0.9871589085072231,
+  "auc": 0.9996876841921862,
   "sequence_length": 15,
   "features": [
     "temperature",
     "vibration",
     "pressure"
   ],
-  "train_samples": 684,
-  "test_samples": 171
+  "train_samples": 9420,
+  "test_samples": 2355
 }
