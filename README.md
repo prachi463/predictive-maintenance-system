@@ -9,6 +9,16 @@ Sensors (ESP32) → Flask/Socket.IO API → MongoDB Atlas → LSTM inference
                                                  ▼
                                    React SCADA Dashboard (live charts, alerts)
 ```
+## Screenshots
+
+**Live Dashboard**
+![Live Dashboard](dashboard-normal.png)
+
+**Failure Alert Detection**
+![Failure Alert Detection](dashboard-alert.png)
+
+**Model Training Results**
+![Model Training Results](training-metrics.png)
 
 ## Project structure
 
