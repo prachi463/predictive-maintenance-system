@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.9941520467836257,
+  "precision": 0.9743589743589743,
+  "recall": 1.0,
+  "auc": 1.0,
+  "sequence_length": 15,
+  "features": [
+    "temperature",
+    "vibration",
+    "pressure"
+  ],
+  "train_samples": 684,
+  "test_samples": 171
+}
